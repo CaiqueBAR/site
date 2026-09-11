@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Isabella Ferreira 30777 — Deputada Estadual | Espírito Santo</title>
+  <meta name="description" content="Isabella Ferreira, 30777, candidata a Deputada Estadual pelo Espírito Santo. Empreendedorismo, segurança, meio ambiente e fiscalização com propostas concretas.">
+  <meta name="theme-color" content="#FAFAFB">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Isabella Ferreira 30777 — Deputada Estadual (ES)">
+  <meta property="og:description" content="Visão de mundo ampliada e propostas concretas para o Espírito Santo.">
+  <meta property="og:image" content="assets/img/santinho.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap">
+  <link rel="preload" as="image" href="assets/img/hero.jpg" imagesrcset="assets/img/hero-640.jpg 640w, assets/img/hero.jpg 1000w" imagesizes="(min-width: 1024px) 520px, 88vw">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Marca que o JS está ativo: o hero fica oculto até a abertura assumir o controle -->
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- Camadas cinematográficas globais -->
+  <div class="progress" aria-hidden="true"><span></span></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="letterbox" aria-hidden="true">
+    <span class="letterbox__bar letterbox__bar--top"></span>
+    <span class="letterbox__bar letterbox__bar--bottom"></span>
+  </div>
+  <div class="flash" aria-hidden="true"></div>
+  <button class="intro-skip" type="button" hidden>Pular abertura <span aria-hidden="true">→</span></button>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" aria-label="30777 Isabella Ferreira — voltar ao início">
+        <span class="logo__num">30777</span>
+        <span class="logo__name">Isabella<br>Ferreira</span>
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#valores">Meus valores</a></li>
+          <li><a href="#plano">Plano de mandato</a></li>
+          <li><a href="#apoie">Como apoiar</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn--primary btn--sm header__cta" href="#apoie">Apoiar a campanha</a>
+
+      <button class="burger" type="button" aria-expanded="false" aria-controls="menu-mobile" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mnav" id="menu-mobile" hidden>
+    <nav aria-label="Navegação principal (mobile)">
+      <ul>
+        <li style="--i:0"><a href="#sobre"><small>01</small>Sobre mim</a></li>
+        <li style="--i:1"><a href="#valores"><small>02</small>Meus valores</a></li>
+        <li style="--i:2"><a href="#plano"><small>03</small>Plano de mandato</a></li>
+        <li style="--i:3"><a href="#apoie"><small>04</small>Como apoiar</a></li>
+        <li style="--i:4"><a href="#contato"><small>05</small>Contato</a></li>
+      </ul>
+      <a class="btn btn--primary" href="#apoie" style="--i:5">Apoiar a campanha</a>
+    </nav>
+  </div>
+
+  <main id="conteudo">
+
+    <!-- ============ 1. HERO ============ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__rays"></div>
+        <div class="hero__numeral">30777</div>
+        <div class="hero__dust"></div>
+      </div>
+
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="overline hero__overline">Deputada Estadual — Espírito Santo</p>
+
+          <h1 class="hero__title" id="hero-title">
+            <span class="line"><span class="word">Isabella</span></span>
+            <span class="line"><span class="word">Ferreira</span></span>
+          </h1>
+
+          <p class="hero__number" aria-label="Número 30777">
+            <span class="hero__number-label" aria-hidden="true">Vote</span>
+            <span class="hero__digits" aria-hidden="true"><span>3</span><span>0</span><span>7</span><span>7</span><span>7</span></span>
+          </p>
+
+          <p class="hero__lead">Visão de mundo ampliada, compromisso com quem vive as desigualdades do Espírito Santo todos os dias. Empreendedorismo, segurança e meio ambiente com propostas concretas para o nosso estado.</p>
+
+          <div class="hero__ctas">
+            <a class="btn btn--primary" href="#apoie">Apoie a campanha <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn--ghost" href="#plano">Ver plano de mandato</a>
+          </div>
+        </div>
+
+        <div class="hero__stage">
+          <figure class="portrait">
+            <div class="portrait__glow" aria-hidden="true"></div>
+            <div class="portrait__frame">
+              <img src="assets/img/hero.jpg"
+                   srcset="assets/img/hero-640.jpg 640w, assets/img/hero.jpg 1000w"
+                   sizes="(min-width: 1024px) 520px, 88vw"
+                   width="1000" height="1248" fetchpriority="high"
+                   alt="Retrato oficial de Isabella Ferreira sorrindo, com as mãos na cintura e blusa preta, em fundo claro de estúdio">
+            </div>
+          </figure>
+
+          <!-- Urna eletrônica estilizada (HTML/CSS). Estado final no markup: sem JS ela já aparece com o 30777. -->
+          <div class="urna" role="img" aria-label="Urna eletrônica exibindo o voto 30777 para Isabella Ferreira, Deputada Estadual">
+            <div class="urna__body" aria-hidden="true">
+              <div class="urna__top">
+                <span class="urna__brand"><i></i>Justiça Eleitoral</span>
+                <span class="urna__grille"></span>
+              </div>
+
+              <div class="urna__screen">
+                <div class="screen">
+                  <div class="screen__vote">
+                    <p class="screen__line screen__for">Seu voto para</p>
+                    <p class="screen__line screen__role">Deputado Estadual</p>
+                    <div class="screen__line screen__num">
+                      <span class="screen__num-label">Número:</span>
+                      <span class="digit"><i data-digit>3</i></span>
+                      <span class="digit"><i data-digit>0</i></span>
+                      <span class="digit"><i data-digit>7</i></span>
+                      <span class="digit"><i data-digit>7</i></span>
+                      <span class="digit"><i data-digit>7</i></span>
+                    </div>
+                    <div class="screen__info">
+                      <p>Nome: <b>Isabella Ferreira</b></p>
+                      <p>UF: <b>Espírito Santo</b></p>
+                    </div>
+                  </div>
+                  <div class="screen__photo">
+                    <img src="assets/img/urna-foto.jpg" width="300" height="400" alt="">
+                    <span>Deputado Estadual</span>
+                  </div>
+                  <div class="screen__footer">
+                    <span class="screen__hint">Aperte a tecla:<br><b class="c-green">CONFIRMA</b> para CONFIRMAR este voto<br><b class="c-orange">CORRIGE</b> para REINICIAR este voto</span>
+                    <span class="screen__ok">✓ Voto confirmado</span>
+                  </div>
+                  <div class="screen__fim">FIM</div>
+                  <div class="screen__flash"></div>
+                </div>
+              </div>
+
+              <div class="urna__keypad">
+                <div class="keys">
+                  <span class="key" data-key="1">1</span><span class="key" data-key="2">2</span><span class="key" data-key="3">3</span>
+                  <span class="key" data-key="4">4</span><span class="key" data-key="5">5</span><span class="key" data-key="6">6</span>
+                  <span class="key" data-key="7">7</span><span class="key" data-key="8">8</span><span class="key" data-key="9">9</span>
+                  <span class="key key--0" data-key="0">0</span>
+                </div>
+                <div class="actions">
+                  <span class="act act--branco">Branco</span>
+                  <span class="act act--corrige">Corrige</span>
+                  <span class="act act--confirma">Confirma</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#sobre" class="scroll-cue" aria-label="Rolar para a seção Sobre mim"><span></span>Role</a>
+    </section>
+
+    <!-- ============ 2. SOBRE MIM ============ -->
+    <section class="section sobre" id="sobre" aria-labelledby="sobre-title">
+      <div class="container sobre__grid">
+        <div class="sobre__media">
+          <figure class="media" data-media>
+            <img src="assets/img/sobre.jpg"
+                 srcset="assets/img/sobre-640.jpg 640w, assets/img/sobre.jpg 1000w"
+                 sizes="(min-width: 1024px) 480px, 90vw"
+                 width="1000" height="1250" loading="lazy" decoding="async"
+                 alt="Isabella Ferreira sentada, de blusa branca, olhando para a câmera com expressão serena">
+          </figure>
+          <div class="tag tag--a" data-reveal><b>Relações Internacionais</b><span>UVV · formatura dez/2026</span></div>
+          <div class="tag tag--b" data-reveal><b>Itália</b><span>2022 – 2024</span></div>
+        </div>
+
+        <div class="sobre__copy">
+          <p class="overline" data-reveal>Quem sou eu</p>
+          <h2 class="h2 split" id="sobre-title">Sobre mim</h2>
+          <div class="prose" data-stagger="0.15">
+            <p class="lead">Olá, prazer, me chamo Isabella Ferreira, e me formo na graduação de Relações Internacionais pela Universidade Vila Velha (UVV) em dezembro desse ano (2026), a formação que moldou minha maneira de olhar para os problemas do Espírito Santo, não como fatos isolados, mas como parte de um sistema, de desigualdades que se repetem, de estruturas que precisam ser entendidas antes de serem transformadas.</p>
+            <p>Foi vivendo fora do Brasil, na Itália (2022–2024), que essa forma de pensar ganhou profundidade. O contato direto com outra sociedade, outra economia e outra cultura ampliaram minha visão de mundo e trouxe uma percepção mais clara das desigualdades e das dificuldades que atravessam a vida das pessoas no Brasil e fora dele. Voltar com esse olhar mais amplo significou também voltar mais atenta ao que precisa mudar aqui em casa, no Espírito Santo.</p>
+            <p>Essa combinação de rigor acadêmico e experiência de mundo é a base das minhas propostas, que foram pensadas para gerar oportunidade real, proteger quem mais precisa e enfrentar as desigualdades regionais que ainda dividem o litoral e o interior do nosso estado.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Faixas cruzadas (marquee) -->
+    <div class="bands" aria-hidden="true">
+      <div class="band band--navy"><div class="band__track"><span>Liberdade · Responsabilidade · Transparência · Eficiência · </span><span>Liberdade · Responsabilidade · Transparência · Eficiência · </span></div></div>
+      <div class="band band--orange"><div class="band__track"><span>Empreendedorismo ✦ Segurança ✦ Meio ambiente ✦ Fiscalização ✦ 30777 ✦ </span><span>Empreendedorismo ✦ Segurança ✦ Meio ambiente ✦ Fiscalização ✦ 30777 ✦ </span></div></div>
+    </div>
+
+    <!-- ============ 3. MEUS VALORES ============ -->
+    <section class="valores" id="valores" aria-labelledby="valores-title">
+      <div class="valores__panel">
+        <div class="valores__fx" aria-hidden="true"></div>
+        <div class="container">
+          <div class="valores__head">
+            <p class="overline overline--light" data-reveal>O que me move</p>
+            <h2 class="h2 h2--light split" id="valores-title">Meus valores</h2>
+          </div>
+
+          <div class="cards">
+            <article class="card">
+              <span class="card__n" aria-hidden="true">01</span>
+              <span class="card__icon" aria-hidden="true"><svg class="i"><use href="#i-unlock"/></svg></span>
+              <h3>Liberdade e responsabilidade</h3>
+              <p>Cada pessoa tem o direito de conduzir sua vida e buscar a felicidade à sua maneira.</p>
+            </article>
+            <article class="card">
+              <span class="card__n" aria-hidden="true">02</span>
+              <span class="card__icon" aria-hidden="true"><svg class="i"><use href="#i-target"/></svg></span>
+              <h3>Estado enxuto e eficiente</h3>
+              <p>Concentrado no essencial: saúde, educação e segurança, sem privilégios nem desperdício.</p>
+            </article>
+            <article class="card">
+              <span class="card__n" aria-hidden="true">03</span>
+              <span class="card__icon" aria-hidden="true"><svg class="i"><use href="#i-shield"/></svg></span>
+              <h3>Gestão íntegra e transparente</h3>
+              <p>Combate à corrupção e compromisso com a segurança jurídica e a independência dos Poderes.</p>
+            </article>
+          </div>
+
+          <div class="valores__text">
+            <p class="valores__quote" data-reveal>Eu defendo a liberdade individual com responsabilidade e respeito ao próximo, reconhecendo o direito de cada pessoa conduzir sua vida e buscar a felicidade à sua maneira. Acredito no livre mercado, na propriedade privada, na livre iniciativa e em uma menor intervenção do Estado na economia, criando condições para o empreendedorismo, a inovação e a geração de empregos.</p>
+            <div class="valores__cols" data-stagger="0.15">
+              <p>Também reafirmo meu compromisso com a democracia, a igualdade perante a lei, a segurança jurídica e a independência entre os Poderes. Defendo um Estado mais enxuto, eficiente e concentrado no que é essencial, especialmente saúde, educação e segurança. Combato a corrupção, os privilégios e o desperdício de dinheiro público, defendendo uma gestão transparente, íntegra e profissional.</p>
+              <p>Acredito que todos devem ter acesso a oportunidades para construir o próprio futuro com liberdade e dignidade. Para isso, é fundamental garantir serviços públicos de qualidade, valorizar o mérito e promover um ambiente econômico, jurídico e fiscal seguro, pois o emprego e a geração de renda são os melhores caminhos para ampliar a autonomia e melhorar a vida das pessoas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. PLANO DE MANDATO ============ -->
+    <section class="section plano" id="plano" aria-labelledby="plano-title">
+      <div class="container">
+        <div class="plano__head">
+          <div>
+            <p class="overline" data-reveal>Propostas concretas</p>
+            <h2 class="h2 split" id="plano-title">Plano de mandato para o Espírito Santo</h2>
+          </div>
+          <div class="plano__intro">
+            <p data-reveal>Os três eixos que conversam entre si: liberdade para empreender, segurança para viver e um estado preparado para o futuro ambiental.</p>
+            <dl class="stats" data-stagger="0.12">
+              <div><dt>Eixos de atuação</dt><dd data-count="4" data-pad="2">04</dd></div>
+              <div><dt>Propostas concretas</dt><dd data-count="29">29</dd></div>
+              <div><dt>Seu número</dt><dd class="stats__num">30777</dd></div>
+            </dl>
+          </div>
+        </div>
+
+        <div class="eixos" data-stagger="0.1">
+
+          <!-- 01 -->
+          <article class="eixo is-open">
+            <h3 class="eixo__h">
+              <button class="eixo__head" type="button" aria-expanded="true" aria-controls="eixo-1" id="eixo-1-btn">
+                <span class="eixo__n">01</span>
+                <span class="eixo__t">Desenvolvimento econômico e empreendedorismo</span>
+                <span class="eixo__meta">8 propostas</span>
+                <span class="eixo__plus" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="eixo__panel" id="eixo-1" role="region" aria-labelledby="eixo-1-btn">
+              <div class="eixo__body">
+                <p class="eixo__desc">O Brasil enfrenta baixo crescimento e produtividade devido à burocracia, aos tributos complexos, ao crédito caro, à insegurança jurídica e à infraestrutura precária — obstáculos que prejudicam principalmente os pequenos negócios. Para fortalecer a economia do Espírito Santo, são necessárias reformas que simplifiquem o ambiente de negócios, ampliem o crédito e a concorrência e promovam o empreendedorismo, a qualificação profissional e o turismo.</p>
+                <ol class="props">
+                  <li><span>01</span>Simplificação do ambiente de negócios</li>
+                  <li><span>02</span>Liberdade econômica</li>
+                  <li><span>03</span>Apoio aos pequenos empreendedores</li>
+                  <li><span>04</span>Fiscalização orientadora</li>
+                  <li><span>05</span>Acesso ao crédito e garantias</li>
+                  <li><span>06</span>Formalização e inclusão produtiva</li>
+                  <li><span>07</span>Qualificação profissional</li>
+                  <li><span>08</span>Turismo sustentável nos parques estaduais</li>
+                </ol>
+              </div>
+            </div>
+          </article>
+
+          <!-- 02 -->
+          <article class="eixo">
+            <h3 class="eixo__h">
+              <button class="eixo__head" type="button" aria-expanded="false" aria-controls="eixo-2" id="eixo-2-btn">
+                <span class="eixo__n">02</span>
+                <span class="eixo__t">Segurança pública e proteção da família</span>
+                <span class="eixo__meta">9 propostas</span>
+                <span class="eixo__plus" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="eixo__panel" id="eixo-2" role="region" aria-labelledby="eixo-2-btn">
+              <div class="eixo__body">
+                <p class="eixo__desc">A segurança pública é uma das principais preocupações dos brasileiros, diante de altos índices de crimes e da expansão de facções e milícias. É preciso também fortalecer a proteção de mulheres, crianças, adolescentes e idosos: a violência doméstica provoca mortes, traumas e perda de autonomia, enquanto o medo e a falta de acolhimento alimentam a subnotificação e a reincidência.</p>
+                <ol class="props">
+                  <li><span>01</span>Combate à receptação de produtos</li>
+                  <li><span>02</span>Uso responsável de reconhecimento facial</li>
+                  <li><span>03</span>Cooperação com a sociedade civil</li>
+                  <li><span>04</span>Integração voluntária de câmeras privadas</li>
+                  <li><span>05</span>Atendimento às mulheres vítimas de violência</li>
+                  <li><span>06</span>Apoio psicossocial às vítimas e seus filhos</li>
+                  <li><span>07</span>Autonomia econômica das mulheres</li>
+                  <li><span>08</span>Proteção de crianças e adolescentes</li>
+                  <li><span>09</span>Proteção de idosos vítimas de violência</li>
+                </ol>
+              </div>
+            </div>
+          </article>
+
+          <!-- 03 -->
+          <article class="eixo">
+            <h3 class="eixo__h">
+              <button class="eixo__head" type="button" aria-expanded="false" aria-controls="eixo-3" id="eixo-3-btn">
+                <span class="eixo__n">03</span>
+                <span class="eixo__t">Meio ambiente e bioeconomia</span>
+                <span class="eixo__meta">12 propostas</span>
+                <span class="eixo__plus" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="eixo__panel" id="eixo-3" role="region" aria-labelledby="eixo-3-btn">
+              <div class="eixo__body">
+                <p class="eixo__desc">A política ambiental deve conciliar preservação e desenvolvimento econômico, combatendo o desmatamento ilegal e transformando a bioeconomia em setor estratégico. É preciso modernizar o licenciamento ambiental, eliminar os lixões e preparar as cidades para enchentes, secas e deslizamentos — unindo conservação, segurança e crescimento sustentável.</p>
+                <ol class="props">
+                  <li><span>01</span>Política estadual de bioeconomia</li>
+                  <li><span>02</span>Incentivo à inovação em bioeconomia</li>
+                  <li><span>03</span>Manejo sustentável da vegetação nativa</li>
+                  <li><span>04</span>Conservação e mercado de carbono</li>
+                  <li><span>05</span>Simplificação do licenciamento ambiental</li>
+                  <li><span>06</span>Combate ao desmatamento ilegal</li>
+                  <li><span>07</span>Incentivo aos aterros sanitários sustentáveis</li>
+                  <li><span>08</span>Aproveitamento energético de resíduos</li>
+                  <li><span>09</span>Usinas de recuperação energética</li>
+                  <li><span>10</span>Apoio à compostagem municipal</li>
+                  <li><span>11</span>Fiscalização da destinação de resíduos</li>
+                  <li><span>12</span>Adaptação e resiliência climática</li>
+                </ol>
+              </div>
+            </div>
+          </article>
+
+          <!-- 04 -->
+          <article class="eixo">
+            <h3 class="eixo__h">
+              <button class="eixo__head" type="button" aria-expanded="false" aria-controls="eixo-4" id="eixo-4-btn">
+                <span class="eixo__n">04</span>
+                <span class="eixo__t">Fiscalização</span>
+                <span class="eixo__meta">Prioridade do mandato</span>
+                <span class="eixo__plus" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="eixo__panel" id="eixo-4" role="region" aria-labelledby="eixo-4-btn">
+              <div class="eixo__body eixo__body--fisc">
+                <div class="fisc__text">
+                  <p class="eixo__desc">A fiscalização firme e independente será uma das maiores prioridades do meu mandato, caso for eleita como deputada estadual. Fiscalizarei com rigor os atos do governador, o trabalho das secretarias e a aplicação de cada recurso público, cobrando que o orçamento seja executado com legalidade, transparência, eficiência e resultados concretos para a população.</p>
+                  <p>Apresentarei requerimentos de informação, convocarei secretários para prestar esclarecimentos, realizarei audiências públicas e visitas técnicas, e acompanharei de perto licitações, contratos, obras, convênios, benefícios fiscais e programas do governo. Cobrarei também a divulgação de metas, despesas, prazos e resultados, atuando com rigor contra desperdícios, atrasos, obras paralisadas, sobrepreços, privilégios e desvios de finalidade.</p>
+                  <p>Diante de indícios de irregularidades, encaminharei as denúncias ao Tribunal de Contas e ao Ministério Público e acompanharei as providências adotadas. Quando necessário, vou defender a criação de comissões parlamentares de inquérito (CPIs) e apresentarei emendas ao orçamento. <strong>Meu compromisso será com o nosso presente e o nosso futuro!</strong> Será proteger o dinheiro dos contribuintes, combater irregularidades e garantir que os recursos públicos sejam utilizados para atender às verdadeiras necessidades da população.</p>
+                </div>
+                <figure class="fisc__media">
+                  <img src="assets/img/fiscalizacao.jpg" width="800" height="1000" loading="lazy" decoding="async"
+                       alt="Retrato institucional de Isabella Ferreira, de blusa branca, com olhar firme">
+                </figure>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. APOIE ============ -->
+    <section class="section apoie" id="apoie" aria-labelledby="apoie-title">
+      <div class="apoie__glow" aria-hidden="true"></div>
+      <div class="container apoie__grid">
+        <div class="apoie__copy">
+          <p class="overline" data-reveal>Como apoiar</p>
+          <h2 class="h2 split" id="apoie-title">Apoie essa campanha</h2>
+          <div class="prose" data-stagger="0.15">
+            <p class="lead">Nossa campanha não é financiada por grandes verbas partidárias, muito menos tem o dinheiro de poderosos. Nossa força vem de quem acorda cedo e conhece os problemas de verdade. Por isso, o seu apoio é o nosso combustível.</p>
+            <p>Quando você compartilha uma proposta ou faz uma doação de qualquer valor, você investe em um mandato independente e com as mãos limpas! Esse valor nos ajuda a imprimir panfletos, visitar mais bairros e levar ideias inovadoras para quem foi esquecido pela política tradicional. Qualquer ajuda faz uma diferença gigante e é um voto de confiança para o futuro.</p>
+          </div>
+          <p class="punch split">Vamos mostrar que a <em>força do povo</em> é maior que o sistema. Apoie e colabore!</p>
+          <button class="btn btn--ghost js-share" type="button" data-reveal>
+            <svg class="i" aria-hidden="true"><use href="#i-share"/></svg> Compartilhar a campanha
+          </button>
+        </div>
+
+        <div class="apoie__side">
+          <figure class="santinho" data-reveal>
+            <img src="assets/img/santinho.jpg" width="720" height="1280" loading="lazy" decoding="async"
+                 alt="Santinho oficial: Isabella Ferreira, 30777, Deputada Estadual, com paisagem capixaba ao fundo">
+          </figure>
+
+          <div class="pix" data-reveal>
+            <p class="pix__label"><svg class="i" aria-hidden="true"><use href="#i-pix"/></svg> Doe via Pix</p>
+            <p class="pix__caption">Chave Pix (CNPJ)</p>
+            <div class="pix__row">
+              <code class="pix__key" id="pix-key">68.235.970/0001-00</code>
+              <button class="btn btn--primary btn--sm js-copy" type="button" data-copy="68235970000100" aria-describedby="pix-key">
+                <svg class="i" aria-hidden="true"><use href="#i-copy"/></svg><span>Copiar</span>
+              </button>
+            </div>
+            <p class="pix__note">Chave Pix em nome de Isabella Ferreira. Copie a chave e faça a doação diretamente pelo app do seu banco.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6. CONTATO ============ -->
+    <section class="section contato" id="contato" aria-labelledby="contato-title">
+      <div class="container contato__grid">
+        <div class="contato__copy">
+          <p class="overline" data-reveal>Fale comigo</p>
+          <h2 class="h2 split" id="contato-title">Contato e redes sociais</h2>
+          <p class="lead" data-reveal>Tem uma proposta, dúvida ou quer se juntar à campanha? Envie uma mensagem ou fale comigo diretamente pelas redes sociais.</p>
+
+          <ul class="channels" data-stagger="0.12">
+            <li>
+              <a class="channel" href="https://instagram.com/isaferreira.es" target="_blank" rel="noopener">
+                <span class="channel__icon channel__icon--ig" aria-hidden="true"><svg class="i"><use href="#i-instagram"/></svg></span>
+                <span class="channel__txt"><small>Instagram</small>@isaferreira.es</span>
+                <svg class="i channel__arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+                <span class="sr-only">(abre em nova aba)</span>
+              </a>
+            </li>
+            <li>
+              <a class="channel" href="mailto:isabellanovo30@gmail.com">
+                <span class="channel__icon" aria-hidden="true"><svg class="i"><use href="#i-mail"/></svg></span>
+                <span class="channel__txt"><small>E-mail</small>isabellanovo30@gmail.com</span>
+                <svg class="i channel__arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="form" id="form-contato" novalidate data-reveal>
+          <p class="form__title">Envie uma mensagem</p>
+          <div class="field">
+            <label for="f-nome">Nome</label>
+            <input id="f-nome" name="nome" type="text" autocomplete="name" required placeholder="Seu nome">
+          </div>
+          <div class="field">
+            <label for="f-email">E-mail</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required placeholder="voce@email.com">
+          </div>
+          <div class="field">
+            <label for="f-msg">Mensagem</label>
+            <textarea id="f-msg" name="mensagem" rows="5" required placeholder="Escreva sua proposta, dúvida ou como quer ajudar"></textarea>
+          </div>
+          <button class="btn btn--primary btn--block" type="submit">Enviar mensagem <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          <p class="form__status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ RODAPÉ ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <a href="#inicio" class="logo logo--light" aria-label="30777 Isabella Ferreira — voltar ao início">
+          <span class="logo__num">30777</span>
+          <span class="logo__name">Isabella<br>Ferreira</span>
+        </a>
+        <p class="footer__tag">Compartilhe as propostas e ajude a levar essa campanha mais longe.</p>
+        <button class="btn btn--primary btn--sm js-share" type="button">
+          <svg class="i" aria-hidden="true"><use href="#i-share"/></svg> Compartilhar
+        </button>
+      </div>
+
+      <div class="footer__credits" aria-hidden="true"><span>3</span><span>0</span><span>7</span><span>7</span><span>7</span></div>
+
+      <div class="footer__legal">
+        <p>Propaganda eleitoral Isabella Ferreira — CNPJ 68.235.970/0001-00</p>
+        <p>© 2026 Isabella Ferreira. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a class="fab" href="#apoie" aria-label="Apoiar a campanha">Apoiar a campanha <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <!-- ============ ÍCONES (sprite SVG) ============ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-unlock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10.5" width="16" height="10.5" rx="2.5"/><path d="M8 10.5V7a4 4 0 0 1 7.6-1.7"/><path d="M12 14.5v2.5"/></g></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor"/></g></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7.5 3v5.5c0 4.6-3.2 8.3-7.5 9.5-4.3-1.2-7.5-4.9-7.5-9.5V6L12 3z"/><path d="M8.8 12.2l2.2 2.2 4.3-4.6"/></g></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="2.6"/><circle cx="6" cy="12" r="2.6"/><circle cx="18" cy="19" r="2.6"/><path d="M8.3 10.8l7.4-4.3M8.3 13.2l7.4 4.3"/></g></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="8.5" y="8.5" width="11.5" height="11.5" rx="2.2"/><path d="M15.5 8.5V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v7.5a2 2 0 0 0 2 2h2.5"/></g></symbol>
+    <symbol id="i-pix" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 2.8l4.2 4.2-4.2 4.2L7.8 7z"/><path d="M12 12.8l4.2 4.2-4.2 4.2-4.2-4.2z"/><path d="M2.8 12L7 7.8l4.2 4.2L7 16.2z"/><path d="M12.8 12L17 7.8l4.2 4.2-4.2 4.2z"/></g></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></g></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 6.5l8.5 6.5 8.5-6.5"/></g></symbol>
+  </svg>
+</body>
+</html>
