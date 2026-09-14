@@ -270,9 +270,9 @@
 
     // Cards de valores: entrada 3D em cascata
     gsap.from('.card', {
-      rotateX: -35, y: 80, autoAlpha: 0, transformPerspective: 900, transformOrigin: '50% 100%',
-      duration: 1.2, ease: 'expo.out', stagger: 0.14,
-      scrollTrigger: { trigger: '.cards', start: 'top 82%' }
+      y: 40, autoAlpha: 0,
+      duration: 0.9, ease: 'expo.out', stagger: 0.12,
+      scrollTrigger: { trigger: '.cards', start: 'top 85%' }
     });
 
     // Imagens: abertura em máscara + zoom de câmera + parallax

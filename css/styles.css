@@ -633,17 +633,24 @@ html.menu-open { overflow: hidden; }
 .eixo__desc { font-size: 1.05rem; color: var(--ink); margin: 0; }
 .props { list-style: none; margin: 0; padding: 0; display: grid; gap: .6rem; }
 .props li {
-  display: flex; align-items: center; gap: .9rem;
-  padding: .85rem 1rem; border-radius: 14px;
+  display: flex; align-items: flex-start; gap: .9rem;
+  padding: 1rem 1.1rem; border-radius: 14px;
   background: var(--white); border: 1px solid var(--line);
-  font-weight: 600; font-size: .92rem; color: var(--navy); line-height: 1.35;
+  color: var(--navy); line-height: 1.35;
   transition: transform .45s var(--ease-out), border-color .3s, box-shadow .45s;
 }
 .props li:hover { transform: translateX(4px); border-color: rgba(248, 96, 24, .5); box-shadow: 0 12px 24px -16px rgba(8, 24, 56, .35); }
 .props span {
   flex: none; display: grid; place-items: center; width: 2.1rem; height: 2.1rem; border-radius: 10px;
   background: var(--navy); color: #fff; font-size: .72rem; font-weight: 800;
+  margin-top: .1rem;
 }
+.props__body { display: flex; flex-direction: column; gap: .3rem; min-width: 0; }
+.props__body b { font-weight: 700; font-size: .95rem; color: var(--navy); letter-spacing: .01em; }
+.props__body small { font-size: .82rem; font-weight: 400; color: var(--ink-soft); line-height: 1.45; }
+.fisc__list { margin: .2rem 0 1.1em 1.1rem; padding: 0; color: var(--ink-soft); display: grid; gap: .5rem; }
+.fisc__list li { line-height: 1.55; }
+.fisc__list li::marker { color: var(--orange); }
 .fisc__text p { color: var(--ink-soft); }
 .fisc__text .eixo__desc { color: var(--ink); margin-bottom: 1.1em; }
 .fisc__text strong { color: var(--navy); }
