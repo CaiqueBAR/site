@@ -681,7 +681,7 @@ html.menu-open { overflow: hidden; }
 .santinho:hover { transform: rotate(0deg) scale(1.02); }
 .santinho img { width: 100%; }
 .pix {
-  position: relative; width: 100%; max-width: 440px; margin-top: -5rem;
+  position: relative; width: 100%; max-width: 440px; margin-top: -3rem;
   padding: 1.8rem; border-radius: var(--radius);
   background: linear-gradient(160deg, var(--navy-3), var(--navy));
   color: #fff; box-shadow: 0 40px 70px -30px rgba(8, 24, 56, .7);
@@ -691,7 +691,7 @@ html.menu-open { overflow: hidden; }
 .pix__label .i { width: 1.4em; height: 1.4em; }
 .pix__caption { font-size: .75rem; letter-spacing: .12em; text-transform: uppercase; color: var(--on-dark-soft); margin-bottom: .4rem; }
 .pix__row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .8rem 1rem; padding: .9rem 0 1.1rem; border-bottom: 1px solid rgba(255, 255, 255, .12); margin-bottom: 1rem; }
-.pix__key { font-family: inherit; font-size: clamp(1.15rem, 2.6vw, 1.45rem); font-weight: 800; letter-spacing: .02em; font-variant-numeric: tabular-nums; }
+.pix__key { font-family: inherit; font-size: clamp(1rem, 4.5vw, 1.45rem); font-weight: 800; letter-spacing: .01em; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .pix__note { font-size: .82rem; color: var(--on-dark-soft); margin: 0; line-height: 1.55; }
 .js-copy.is-copied { background: #fff; }
 @media (min-width: 1024px) {
